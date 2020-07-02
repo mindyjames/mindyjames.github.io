@@ -1,2 +1,34 @@
 /*the styles for the elements*/
-h1 {color: #cc3300;} /*rust orange*/
+h1 {
+    color: #cc3300;
+} /*rust orange*/
+
+footer {
+    font-size: 70%;
+}
+
+footer a:link {
+    color: #000099;
+}
+
+footer a:hover {
+    color: #cc99cc;
+}
+
+footer a:focus {
+    color: #cc0000;
+}
+
+footer a:visited {
+    color: #cc00cc;
+}
+
+footer a:active {
+    color: #cc0000;
+}
+
+footer a {
+    text-decoration: none; 
+    font: "arial", calibri, sans-serif;
+    font-size: 10pt;
+}
