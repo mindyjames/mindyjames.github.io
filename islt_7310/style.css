@@ -1,7 +1,40 @@
 /*the styles for the elements*/
+
+* {
+ font-family: 'Open Sans', "arial", sans-serif;
+}
+
 h1 {
     color: #cc3300;
-} /*rust orange*/
+}/*rust orange*/
+
+h1 {
+    font-size: 250%;
+}
+
+h1{
+    font-family: 'Alegreya Sans', "arial", sans-serif;
+}
+
+img {
+  float: left;
+}
+
+#vision {
+    clear: both;
+}
+
+h3 {
+    color: #669999;
+}/*dark teal*/
+
+h3 {
+    font-size: 175%;
+}
+
+.current {
+    color: #ff6633;
+}/*orange melon*/
 
 footer {
     font-size: 70%;
@@ -9,26 +42,26 @@ footer {
 
 footer a:link {
     color: #000099;
-}
+} /*dark blue*/
 
 footer a:hover {
     color: #cc99cc;
-}
+} /*light purple*/
 
 footer a:focus {
     color: #cc0000;
-}
+} /*dark red*/
 
 footer a:visited {
     color: #cc00cc;
-}
+} /*bright purple*/
 
 footer a:active {
     color: #cc0000;
-}
+} /*dark red*/
 
 footer a {
     text-decoration: none; 
-    font: "arial", calibri, sans-serif;
+    font-family: "arial", "calibri", sans-serif;
     font-size: 10pt;
 }
