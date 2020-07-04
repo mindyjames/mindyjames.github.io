@@ -4,20 +4,42 @@
  font-family: 'Open Sans', "arial", sans-serif;
 }
 
+body {
+    background-image: url("../islt_7310/images/light_gray_gradient.png");
+}
+h1 {height: 50px; 
+    width: 25%;
+    border: 2px outset #333333;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+} /*dark gray border*/
+
 h1 {
     color: #cc3300;
+    font-size: 250%;
+    font-family: 'Alegreya Sans', "arial", sans-serif;
 }/*rust orange*/
 
 h1 {
-    font-size: 250%;
-}
-
-h1{
-    font-family: 'Alegreya Sans', "arial", sans-serif;
-}
+    background-color: #F8F8F8
+} /*gray white*/
 
 img {
   float: left;
+}
+
+img {
+    padding: 25px 25px 10px 25px;
+    margin: 10px 25px;
+}
+
+#welcome {
+    padding-top: 50px;
+}
+
+#welcome_paragraph {
+    padding-right: 40%;
 }
 
 #vision {
@@ -35,6 +57,10 @@ h3 {
 .current {
     color: #ff6633;
 }/*orange melon*/
+
+footer {
+    border-top: 2px solid #333333;
+} /*dark gray*/
 
 footer {
     font-size: 70%;
