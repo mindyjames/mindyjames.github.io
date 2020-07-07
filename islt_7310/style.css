@@ -1,41 +1,62 @@
-/*the styles for the elements*/
+/*CSS styles for the HTML5 elements
+**************************************************************************************************
+        Title: Mindy James Program Portfolio
+        Use: Organizes program artifacts to display competencies for degree review
+        Author: Mindy James
+        School/Term: University of Missori-Columbia, Summer 2020
+        Developed: July 1, 2020
+        Tested: July 7, 2020
+****************************************************************************************************
+*/
+* {
+    padding:0px;
+    margin:0px;
+}
 
 * {
  font-family: 'Open Sans', "arial", sans-serif;
 }
 
 body {
+    padding: 0px 25px 25px 50px;
+    margin: 15px;
     background-image: url("../islt_7310/images/light_gray_gradient.png");
 }
-h1 {height: 50px; 
-    width: 25%;
-    border: 2px outset #333333;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-} /*dark gray border*/
-
-h1 {
-    color: #cc3300;
-    font-size: 250%;
-    font-family: 'Alegreya Sans', "arial", sans-serif;
-}/*rust orange*/
-
-h1 {
-    background-color: #F8F8F8
-} /*gray white*/
+    
+.header { 
+    background-image: url("../islt_7310/images/mosaic_blue_purple_ribbon_85opacity.png");
+    height:  210px;
+    padding: 0px;
+    margin: 0px;
+}
+    
+.header h1 {
+    color: #534E52;
+    font-size: 275%;
+    font-family: 'Open Sans', "arial", sans-serif;
+    margin: 0px;
+    padding: 90px 0px 0px 50px;
+}/*purple taupe*/
+    
+.header p {
+    color: #534E52;
+    font-size: 125%;
+    font-family: 'Open Sans', "arial", sans-serif;
+    margin: 0px;
+    padding: 0px 0px 0px 50px;
+} /*purple taupe*/
 
 img {
   float: left;
 }
 
 img {
-    padding: 25px 25px 10px 25px;
+    padding: 15px 25px 10px 25px;
     margin: 10px 25px;
 }
 
 #welcome {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #welcome_paragraph {
@@ -47,7 +68,7 @@ img {
 }
 
 h3 {
-    color: #669999;
+    color: #3A5B6E;
 }/*dark teal*/
 
 h3 {
@@ -55,11 +76,13 @@ h3 {
 }
 
 .current {
-    color: #ff6633;
-}/*orange melon*/
+    color: #936d73;
+}/*taupe wine*/
 
 footer {
     border-top: 2px solid #333333;
+    padding: 5px;
+    margin-top: 5px;
 } /*dark gray*/
 
 footer {
