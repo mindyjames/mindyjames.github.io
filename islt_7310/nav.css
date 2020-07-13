@@ -1,0 +1,75 @@
+/*CSS navigation style sheet for the HTML5 elements
+***************************************************************************************************
+        Title: Mindy James Program Portfolio Navigation Style Sheet
+        Use: Navigation style sheet for site to organize program artifacts to display competencies for degree review
+        Author: Mindy James
+        School/Term: University of Missori-Columbia, Summer 2020
+        Developed: July 1, 2020
+        Tested: July 12, 2020
+****************************************************************************************************
+*/
+
+#nav_menu {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    margin-left: .5em;
+    margin-bottom: 1.5em;
+    margin-right: 2em;
+    margin-top: 1.5em;
+    float: left;
+}
+
+#nav_menu ul li{
+    width:200px;
+    position: relative;
+    margin-bottom: .5em;
+    border: 2px solid #3A5B6E; 
+}/*dark teal*/
+
+#nav_menu ul li a {
+    display: block;
+    padding: .5em 0 .5em 1.50em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333E52 ;
+}/*purple taupe*/
+
+#nav_menu a:link {
+    background-color: #999999;
+}
+
+#nav_menu a:hover {
+    background-color: #fffccc;
+}
+
+#nav_menu a:focus {
+    background-color: #fffccc;
+}
+
+#nav_menu a:active {
+    background-color: #cc9999;
+}
+
+#nav_menu a:visited {
+    color: #A7405C;
+}
+
+#nav_menu ul>li ul{
+    position:absolute;
+    margin-top: -1em;
+    margin-right: 100%;
+    margin-left: 100%;
+    display: none;
+}/*position Projects drop-down*/
+
+#nav_menu>ul>li:hover>ul {
+    display: block;
+}
+
+
+
+

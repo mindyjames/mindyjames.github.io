@@ -1,13 +1,14 @@
 /*CSS styles for the HTML5 elements
-**************************************************************************************************
-        Title: Mindy James Program Portfolio
-        Use: Organizes program artifacts to display competencies for degree review
+***************************************************************************************************
+        Title: Mindy James Program Portfolio Style Sheet
+        Use: Style sheet on site to organize program artifacts to display competencies for degree review
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: July 1, 2020
-        Tested: July 7, 2020
+        Tested: July 12, 2020
 ****************************************************************************************************
 */
+
 * {
     padding:0px;
     margin:0px;
@@ -18,14 +19,13 @@
 }
 
 body {
-    padding: 0px 25px 25px 50px;
-    margin: 15px;
-    background-image: url("../islt_7310/images/light_gray_gradient.png");
+   background-image: url("../islt_7310/images/light_gray_gradient.png");
 }
-    
+
 .header { 
     background-image: url("../islt_7310/images/mosaic_blue_purple_ribbon_85opacity.png");
     height:  210px;
+    width: 100%;
     padding: 0px;
     margin: 0px;
 }
@@ -46,21 +46,29 @@ body {
     padding: 0px 0px 0px 50px;
 } /*purple taupe*/
 
+main {
+    padding: 10px 50px 10px 75px;
+    margin-top: 1.5em;
+}
+
+/***************************************** Home Page Style ****************************************/
+
 img {
   float: left;
 }
 
 img {
-    padding: 15px 25px 10px 25px;
-    margin: 10px 25px;
+    padding: 30px 15px 10px 150px;
+    margin: 10px 0px;
 }
 
 #welcome {
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-right: 300px;
 }
 
 #welcome_paragraph {
-    padding-right: 40%;
+    padding-right: 300px;
 }
 
 #vision {
@@ -77,12 +85,47 @@ h3 {
 
 .current {
     color: #936d73;
-}/*taupe wine*/
+}/*taupe wine for current education and job on home page*/
 
+/**************************************** Resume Page Style ***************************************/
+
+#resume_heading {
+    padding: 25px 100px 15px 300px;
+    margin: 0;
+}
+
+#resume_body {
+    padding: 25px 100px 15px 300px;
+    margin: 0;
+}
+
+
+
+/************************************** Reflection Page Style *************************************/
+
+#reflection_main {
+    padding: 0px 25% 25px 25px;
+    margin: 0px 15px 15px 15px;
+    /*padding: 25px 100px 15px 300px;
+    margin: 0;*/
+}
+
+#reflection_experience::first-letter {
+    font-size: 250%;
+    color: #ffffe6;
+    font-weight: bold;
+}
+
+#reflection_expectations::first-line {
+    text-indent: 2em;
+}
+
+
+/******************************************** Footer Style ****************************************/
 footer {
     border-top: 2px solid #333333;
-    padding: 5px;
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 20px;
 } /*dark gray*/
 
 footer {
