@@ -191,6 +191,7 @@ blockquote {
         font-size: 75%;
         line-height: .75em;
 }
+    
     #profile_picture {
         float: left;
         width: 100%;
@@ -204,7 +205,7 @@ blockquote {
     }
         
     home_paragraph {
-        padding-right: 2%;    
+        padding-right: 1%;    
 }  
     
     #welcome {
@@ -215,12 +216,15 @@ blockquote {
     #aside_home {
        width: 95%;
     }
-    
-    
+      
     blockquote {
         width: 50%;
         padding-right: 20%;
 }
+    footer {
+        width: auto;
+        margin: 0 auto;
+    }
 } /*end media query*/
 
 
@@ -296,5 +300,4 @@ footer a:active {
 footer a {
     text-decoration: none; 
     font-family: "arial", "calibri", sans-serif;
-    font-size: 10pt;
     }
