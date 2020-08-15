@@ -5,7 +5,7 @@
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: July 1, 2020
-        Tested: July 12, 2020
+        Tested: August 15, 2020
 ****************************************************************************************************
 */
 
@@ -57,6 +57,11 @@ h3 {
 h3 {
     font-size: 200%;
     font-family: 'Raleway', "arial", sans-serif;
+}
+
+ h4 {
+    font-family: 'Raleway', "arial", sans-serif;
+    font-size: 130%
 }
 
 /***************************************** Home Page Style ****************************************/
@@ -124,10 +129,10 @@ h3 {
 #aside_home {
     background-color: #e5e0da;
     width: 20%;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-right: 3%;
     padding-bottom: 3%;
-    padding-left:2%;
+    padding-left: 4%;
     margin-top: 3%;
     vertical-align: middle;
     float: left;
@@ -167,13 +172,18 @@ h3 {
     color: #936d73;
 }/*taupe wine for current education and job on home page*/
 
+#skills_list {
+    list-style: circle;
+    padding-left: 1.5em;
+}
+
 blockquote {
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 6%;
-    padding-right: 20%;
+    padding-right: 5%;
     padding-bottom: 3%;
-    padding-left: 20%;
+    padding-left: 5%;
     clear: both;
     font-size: 120%;
     font-family:'Bad Script', cursive;
@@ -183,7 +193,7 @@ blockquote {
 
 @media only screen and (max-width: 640px) {
     #container {
-        clear:both;
+        clear: both;
         display: block;
         width: 100%;
         padding: 0 10%;
@@ -204,8 +214,8 @@ blockquote {
         margin: 0 auto;
     }
         
-    home_paragraph {
-        padding-right: 1%;    
+    .home_paragraph {
+        padding-right: 1%; 
 }  
     
     #welcome {
@@ -230,36 +240,538 @@ blockquote {
 
 /**************************************** Resume Page Style ***************************************/
 
-#resume_heading {
-    padding: 25px 100px 15px 300px;
-    margin: 0;
+#container_resume {
+    max-width: 90%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+.resume_objective {
+    float: left;
+    width: 30%;
+    padding-top: 6%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+#objective_heading {
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    margin: 0 auto;
 }
 
 #resume_body {
-    padding: 25px 100px 15px 300px;
-    margin: 0;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    margin: 0 auto;
 }
 
+#view_resume {
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    margin: 0 auto;    
+}
+
+.resume_video {
+    float:right;
+    width: auto;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-top: 0;
+    margin-right: 3%;
+    margin-bottom: 0;
+    margin-left: auto;   
+}
+
+#video_placeholder {
+    min-height: auto;
+    max-width: 100%;
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 640px) {
+    #container_resume {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 85%;
+        line-height: 1.2em;
+}
+    
+    #video_placeholder {
+        float: left;
+        width: 100%;
+        min-width: 300px; 
+        height: auto;
+}
+    
+    .resume_objective {
+        clear: both;
+        width: 95%;
+        padding: 1% 5%;
+        margin: 0 auto;
+}
+    
+    #objective_heading {
+        padding-top: 0;
+        padding-right: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        margin: 0 auto;
+    }
+
+    .resume_video {
+        clear: both;
+        width: 95%;
+        padding: 1% 1%;
+        margin: 0 auto;
+}   
+    
+    footer {
+        clear: both;
+        width: auto;
+        margin: 0 auto;
+    }
+} /*end media query*/
+
+/**************************************** Background Page Style ***************************************/
+
+#container_background {
+    max-width: 100%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+#container_background_main {
+    float: left;
+    width: 60%;
+    padding-top: 4%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#aside_background_strengths {
+    float: right;
+    width: 30%;
+    background-color: #e5e0da;
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    vertical-align: middle;
+    border: 2px solid #3A5B6E;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+#background {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+#container_arrows_image {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+#background_arrows {
+    min-height: 200px;
+    max-width: 100%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+#container_background_text {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin: 0 auto; 
+}
+
+.background_paragraphs {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#strengths_heading {
+    font-size: 1.5em;
+    padding-bottom: .5em;
+}
+#background_strengths {
+    list-style: circle;
+    font-size: 100%;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    line-height: 1.25em;
+    color: #2c3840;
+} 
+
+#background_strengths li {
+    padding-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 640px) {
+    #container {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0 10%;
+        margin: 0 auto;
+        font-size: 75%;
+        line-height: .75em;
+}
+    
+    #profile_picture {
+        float: left;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    #main_home {
+        width: 95%;
+        margin: 0 auto;
+    }
+        
+    .home_paragraph {
+        padding-right: 1%; 
+}  
+    
+    #welcome {
+        padding-top: 2%;
+        padding-right: 2%;
+}
+  
+    #aside_home {
+       width: 95%;
+}
+      
+    blockquote {
+        width: 50%;
+        padding-right: 20%;
+}
+    footer {
+        width: auto;
+        margin: 0 auto;
+    }
+} /*end media query*/
 
 
 /************************************** Reflection Page Style *************************************/
 
-#reflection_main {
-    padding: 0px 25% 25px 25px;
-    margin: 0px 15px 15px 15px;
-    /*padding: 25px 100px 15px 300px;
-    margin: 0;*/
+#container_reflection {
+    max-width: 90%;
+    padding: 0 2em;
+    margin: 0 auto;
 }
 
-#reflection_experience::first-letter {
-    font-size: 250%;
-    color: #ffffe6;
-    font-weight: bold;
+#reflection_heading {
+    padding-top: 6%;
+    padding-left: 2%;
+    margin: 0 auto;
 }
 
-#reflection_expectations::first-line {
-    text-indent: 2em;
+#container_reflection_image {
+    float: left;
+    min-height: 200px;
+    max-width: 100%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin: 0 auto;
 }
+
+#container_experience {
+    float: right;
+    width: 50%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: 0 auto;
+    float: right;
+}
+
+#experience_heading {
+    padding-top: 1.5%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#experience_paragraph {
+    display: block;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-bottom: 0;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#container_expectations {
+    clear: both;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+#expectations_heading {
+    clear: both;
+    padding-top: 1.5%;
+    padding-right: 2%;
+    padding-bottom: .5%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+#expectations_paragraph {
+    display: block;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 640px) {
+    #container_reflection {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 1%;
+        margin: 0 auto;
+        font-size: 85%;
+        line-height: 1.2em;
+}
+
+    #reflection_heading {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        margin: 0 auto;
+}
+    
+    #container_reflection_image {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        margin: 0 auto;        
+}
+    
+    #reflection_image {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    #container_experience {
+        width: 95%;
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        margin: 0 auto;
+}
+    
+    #experience_heading {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}
+        
+    #experience_paragraph {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}  
+    
+    #container_expectations {
+        width: 95%;
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        margin: 0 auto;
+}
+        
+    #expectations_heading {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}
+        
+    #expectations_paragraph {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}  
+      
+    footer {
+        width: auto;
+        margin: 0 auto;
+}
+} /*end media query*/
+
+
+
+
+/******************************************** Contact Style ****************************************/
+#container_contact {
+    max-width: 90%;
+    padding: 0 1em;
+    margin: 0 auto;   
+}
+
+.contact_visual {
+    float: left;
+    width: 45%;
+    padding-top: 2em;
+    padding-right: .25em;
+    padding-bottom: 1.5em;
+    padding-left: .75em;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+#at_sign_photo {
+    min-height: 150px;
+    max-width: 100%;
+    padding-top: 2em;
+}
+
+.container_contact_form {
+    float:right;
+    width: 45%;
+    padding-top: 2em;
+    padding-right: 0.75em;
+    padding-bottom: 1.5em;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;   
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #898382;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;    
+    background-color: #3A5B6E;
+    color: #e5e0da;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #54829D;
+}
+
+@media only screen and (max-width: 640px) {
+    #container_contact {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0;
+        padding-right: 1%;
+        margin: 0 auto;
+        font-size: 75%;
+        line-height: .75em;
+}
+    
+    #at_sign_photo {
+        float: left;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    .contact_visual {
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+}
+
+    .container_contact_form {
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+}
+
+    input[type=text], select {
+        padding-top: 2%;
+        padding-right: 2%;
+}
+    
+    input[type=submit] {
+        padding-top: 2%;
+        padding-right: 2%;
+}   
+    
+    footer {
+        clear: both;
+        width: auto;
+        margin: 0 auto;
+    }
+} /*end media query*/
 
 
 /******************************************** Footer Style ****************************************/

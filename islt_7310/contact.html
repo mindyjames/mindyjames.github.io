@@ -9,7 +9,7 @@
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: July 11, 2020
-        Tested: August 2, 2020
+        Tested: August 15, 2020
         ***************************************************************************************
         -->
         <meta charset="utf-8">
@@ -36,10 +36,9 @@
     </head>
     
     <body>
-           
-        <div class=header>
+        <div class="header">
             <h1>Mindy James</h1>
-            <p>Learning Technologies and Design Portfolio</p>
+                <p>Learning Technologies and Design Portfolio</p>
         </div>
         
         <div class="nav">
@@ -47,10 +46,10 @@
                 <input type="checkbox" id="toggle"/>
                     <div class="nav_menu">
                         <ul>
-                            <li class="active"><a href="#index">Home</a></li>
+                            <li ><a href="#index">Home</a></li>
                             <li><a href="#resume">Resume</a></li>
                             <li><a href="#background">Background</a></li>
-                            <li><a href="#project">Projects</a>
+                            <li><a href="#projects">Projects</a>
                 
                             <ul id="mobilehide">
                                 <li><a href="#project_1">Project 1</a></li>
@@ -60,17 +59,31 @@
                             </li>
                         
                             <li><a href="#reflection">Reflection</a></li>
-                            <li><a href="#contact">Contact</a></li>   
+                            <li class="active"><a href="#contact">Contact</a></li>   
                         </ul>
                     </div>
             </div>
         
-        
-        <main>
-            
-            
-        </main>
-       
+         <div id="container_contact">
+            <div class="contact_visual">
+               <img id="at_sign_photo" src="../islt_7310/images/at_sign.jpg" alt="large 'at symbol' sculpture on a sandy beach" width="580">
+             </div>
+           
+            <div class="container_contact_form">
+               <form action="action_page.php">
+                    <input type="text" id="fname" name="firstname" placeholder="First Name...">
+                    
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name...">
+                    
+                    <input type="text" placeholder="Email" name="email" required>
+                    
+                    <textarea id="subject" name="subject" placeholder="Type your message here..." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                    </form> 
+                    
+             </div>
+        </div>
       
         <footer>
             <p>&copy; Copyright 2020 by Mindy James at <a href="mailto:mrg9p4@mail.missouri.edu">mrg9p4@mail.missouri.edu</a></p>

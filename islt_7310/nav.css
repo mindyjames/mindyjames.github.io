@@ -5,7 +5,7 @@
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: July 1, 2020
-        Tested: July 12, 2020
+        Tested: August 15, 2020
 ****************************************************************************************************
 */
 html, body {
@@ -78,7 +78,10 @@ html, body {
     font-size: 90%;
     padding: 1em;
     margin: 0 auto;
-    border: 2px solid #3A5B6E;
+    border-top: 2px solid #3A5B6E;
+    border-right: 1px solid #3A5B6E;
+    border-bottom: 2px solid #3A5B6E;
+    border-left: 1px solid #3A5B6E;    
     font-weight: bold;
     color: #333E52;
 }/*dark teal*/

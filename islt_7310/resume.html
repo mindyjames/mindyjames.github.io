@@ -9,87 +9,76 @@
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: June 25, 2020
-        Tested/Validated: July 12, 2020
+        Tested/Validated: August 15, 2020
         ***************************************************************************************
         -->
         <meta charset="utf-8">
-        <title>Mindy James Resume</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Mindy James Program Portfolio</title>
         
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
         
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+        
         <link rel="stylesheet" href=../islt_7310/style.css>
         
         <link rel="stylesheet" href=../islt_7310/nav.css>
         
-        <style>
-            h4 {
-                text-align: center;
-            }
-            
-            h4 {
-                font-family: 'Alegreya', "Helvetica", sans-serif;
-            }
-            
-            h4 {
-                font-size: 150%
-            }
-            
-            h4 a:link {
-                color: #000099;
-            } /*dark blue*/
-
-            h4 a:hover {
-                color: #cc99cc;
-            } /*light purple*/
-
-            h4 a:focus {
-                color: #cc0000;
-            } /*dark red*/
-
-            h4 a:visited {
-                color: #cc00cc;
-            } /*bright purple*/
-
-            h4 a:active {
-                color: #cc0000;
-            } /*dark red*/
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
         
-        </style>
     </head>
     
     <body>
-       <div class=header>
+           
+        <div class="header">
             <h1>Mindy James</h1>
             <p>Learning Technologies and Design Portfolio</p>
-             <nav id="nav_menu">
-            <ul>
-                <li><a href="#index">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#background">Background</a></li>
-                <li><a href="#projects">Projects</a>
-                
-                    <ul>
-                            <li><a href="#project_1">Project 1</a></li>
-                            <li><a href="#project_2">Project 2</a></li>
-                            <li><a href="#project_3">Project 3</a></li>
-                    </ul>
-                </li>
-                        
-                <li><a href="#reflection">Reflection</a></li>
-                <li><a href="#contact">Contact</a></li>   
-            </ul>
-        </nav>
         </div>
         
-        <main>
-            <h3 id="resume_heading">Professional Objective</h3>
+        <div class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle"/>
+                    <div class="nav_menu">
+                        <ul>
+                            <li><a href="#index">Home</a></li>
+                            <li class="active"><a href="#resume">Resume</a></li>
+                            <li><a href="#background">Background</a></li>
+                            <li><a href="#projects">Projects</a>
+                
+                            <ul id="mobilehide">
+                                <li><a href="#project_1">Project 1</a></li>
+                                <li><a href="#project_2">Project 2</a></li>
+                                <li><a href="#project_3">Project 3</a></li>
+                            </ul>
+                            </li>
+                        
+                            <li><a href="#reflection">Reflection</a></li>
+                            <li><a href="#contact">Contact</a></li>   
+                        </ul>
+                    </div>
+            </div>
+    
+        <div id="container_resume">
+           <div class="resume_objective">
+                <h3 id="objective_heading">Professional Objective</h3>
                
-            <p id="resume_body">Seeking a professional opportunity to combine my corporate human resource and classroom education experiences to elevate stakeholder engagement, support collaboraon, and creatively achieve goals.</p>
+                <p id="resume_body">Seeking a professional opportunity to combine my corporate human resource and classroom education experiences to elevate stakeholder engagement, support collaboraon, and creatively achieve goals.</p>
             
-            <h4><a href="../islt_7310/docs/jamesresume.PDF">View Resume</a></h4>
-         </main>  
+                <h4 id=view_resume><a href="../islt_7310/docs/james_resume.PDF" target="_blank">View Resume</a></h4>
+            </div>
+            
+            <div class="resume_video">
+                <img id="video_placeholder" src="../islt_7310/images/video_placeholder.jpg" alt="video resume clip" width="580">
+            </div>
+            
+         </div> 
         
         <footer>
             <p>&copy; Copyright 2020 by Mindy James at <a href="mailto:mrg9p4@mail.missouri.edu">mrg9p4@mail.missouri.edu</a></p>
