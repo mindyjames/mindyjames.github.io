@@ -447,49 +447,88 @@ blockquote {
 }
 
 @media only screen and (max-width: 640px) {
-    #container {
+    #container_background {
         clear: both;
         display: block;
         width: 100%;
         padding: 0 10%;
         margin: 0 auto;
-        font-size: 75%;
-        line-height: .75em;
+        font-size: 80%;
+        line-height: 1.25em;
 }
     
-    #profile_picture {
+    #container_background_main {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    #container_arrows_image {
         float: left;
         width: 100%;
-        max-width: 200px;
+        max-width: 300px;
         height: auto;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
 }
+    #year_arrows {
+        padding: 0;
+        margin: 0 auto;
+    }
     
-    #main_home {
+    #container_background_text {
+        clear: both;
         width: 95%;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
         margin: 0 auto;
     }
         
-    .home_paragraph {
-        padding-right: 1%; 
-}  
-    
-    #welcome {
+    .background_paragraphs {
         padding-top: 2%;
         padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}  
+    
+    #background {
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
 }
   
-    #aside_home {
-       width: 95%;
+    #aside_background_strengths {
+        float: left;
+        width: 75%;
+        padding-top: 3%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom; 2%;
+        margin-left: auto;
 }
-      
-    blockquote {
-        width: 50%;
-        padding-right: 20%;
-}
+    #strengths_heading {
+        margin: 0 auto;
+    }
+    
+    #background_strengths {
+        font-size: 1.05em;
+        margin: 0 auto;
+    }
+    
     footer {
         width: auto;
         margin: 0 auto;
-    }
+}
 } /*end media query*/
 
 
