@@ -296,7 +296,11 @@ blockquote {
     margin-left: auto;   
 }
 
-#video_placeholder {
+iframe {
+border: 0;
+}
+
+#james_video_resume {
     min-height: auto;
     max-width: 100%;
     padding-top: 3%;
@@ -307,22 +311,16 @@ blockquote {
         clear: both;
         display: block;
         width: 100%;
-        padding: 0;
+        padding: 0 10%;
         margin: 0 auto;
-        font-size: 85%;
+        font-size: 80%;
         line-height: 1.2em;
 }
     
-    #video_placeholder {
+    .resume_objective {
         float: left;
         width: 100%;
-        min-width: 300px; 
-        height: auto;
-}
-    
-    .resume_objective {
-        clear: both;
-        width: 95%;
+        max-width: 300px;
         padding: 1% 5%;
         margin: 0 auto;
 }
@@ -333,14 +331,21 @@ blockquote {
         padding-bottom: 1%;
         padding-left: 1%;
         margin: 0 auto;
-    }
+}
 
     .resume_video {
-        clear: both;
-        width: 95%;
-        padding: 1% 1%;
+        float: left;
+        width: 100%;
+        max-width: 300px;
+        padding: 1% 5%;
         margin: 0 auto;
 }   
+  
+    #james_video_resume {
+        width: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
     
     footer {
         clear: both;
@@ -513,7 +518,7 @@ blockquote {
         padding-left: 2%;
         margin-top: 0;
         margin-right: auto;
-        margin-bottom; 2%;
+        margin-bottom: 2%;
         margin-left: auto;
 }
     #strengths_heading {
@@ -749,6 +754,16 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+ #subject {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #898382;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 input[type=submit] {
     width: 100%;    
     background-color: #3A5B6E;
@@ -820,8 +835,14 @@ footer {
 
 footer {
     border-top: 2px solid #333333;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+    background-image: url(../islt_7310/images/mosaic_blue_purple_ribbon_85opacity.png);
+    background-size: cover;
+    text-align: center;
 } /*dark gray*/
 
 footer {
