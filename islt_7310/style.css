@@ -14,6 +14,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Bad Script;
+    src: url ("Bad_Script (1)")
+}
+
 * {
  font-family: 'Open Sans', "arial", sans-serif;
 }
@@ -186,7 +191,7 @@ blockquote {
     padding-left: 5%;
     clear: both;
     font-size: 120%;
-    font-family:'Bad Script', cursive;
+    font-family: Bad Script, cursive;
     line-height: 1.15em;
     color: #534E52;
 } 
