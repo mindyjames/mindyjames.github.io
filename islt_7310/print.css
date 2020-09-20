@@ -24,24 +24,43 @@
     
     .header {
         background-image: none;
-        margin-bottom: 0;
-        margin-top: 0;
-        padding-top: 0;
-        padding-bottom: 0;
+        margin: 0;
+        padding: 0;
         border: none;
         text-align: center;
     }
     
+    #main_home {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
     #profile_picture {
+        margin-top: 0;
+        padding-top: 0;
         filter: grayscale(100%);
     }
     
-    @page {
-        margin: .5cm;
+    #welcome {
+        margin: 0;
+        padding: 0;
     }
     
-    @page :first {
-        margin-top: 2cm;
+    #aside_home {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    @page {
+        margin-top: .75cm;
+        margin-right: .5cm;
+        margin-bottom: .75cm;
+        margin-left: .5cm;
+    }
+    
+    h3 {
+        page-break-after: avoid;
     }
     
     p, ul li {
