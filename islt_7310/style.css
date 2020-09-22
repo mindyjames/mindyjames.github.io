@@ -5,7 +5,7 @@
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: July 1, 2020
-        Tested: August 15, 2020
+        Tested: September 21, 2020
 ****************************************************************************************************
 */
 
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: Bad Script;
-    src: url ("Bad_Script (1)")
+    src: url("Bad_Script (1)");
 }
 
 * {
@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image:     url("../islt_7310/images/light_gray_gradient.png");
+    background-image: url("../islt_7310/images/light_gray_gradient.png");
     background-size: 100%;
     max-width: 1600px;
 }
@@ -66,7 +66,17 @@ h3 {
 
  h4 {
     font-family: 'Raleway', "arial", sans-serif;
-    font-size: 130%
+    font-size: 130%;
+     color: #3A5B6E;
+}
+
+h5 {
+    font-family: 'Open Sans', "arial", sans-serif;
+    font-size: 100%;
+}
+
+h2 {
+    color: #3A5B6E;
 }
 
 /***************************************** Home Page Style ****************************************/
@@ -127,7 +137,7 @@ h3 {
     list-style: none;
     padding-left: 15%;
     font-size: 90%;
-    line-height: 1.75
+    line-height: 1.75;
     
 }
 
@@ -541,7 +551,54 @@ border: 0;
 }
 } /*end media query*/
 
+/**************************************** Projects Page Style ***************************************/
 
+#container_projects {
+    max-width: 90%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+.project_sections {
+    background-color: #e5e0da;
+    width: 90%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+    float: left;
+    border: 2px solid #3A5B6E;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+#competency_three {
+    margin-bottom: 3%;
+}
+
+.project_paragraphs {
+    margin-bottom: 1%;
+}
+
+
+@media only screen and (max-width: 640px) {
+    
+    #container_projects {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 1%;
+        margin: 0 auto;
+        font-size: 85%;
+        line-height: 1.3em;
+}
+    
+    
+}
 /************************************** Reflection Page Style *************************************/
 
 #container_reflection {
@@ -878,3 +935,20 @@ footer a {
     text-decoration: none; 
     font-family: "arial", "calibri", sans-serif;
     }
+
+footer img{
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 12px;
+    line-height: 16px;
+    transition: transform .2s;
+}
+
+footer img:hover{
+    transform: scale(1.5);
+    padding-right: 10px;
+}
+
+
+
+
