@@ -70,15 +70,29 @@
              </div>
            
             <div class="container_contact_form">
-               <form action="action_page.php">
-                    <input type="text" id="fname" name="firstname" placeholder="First Name...">
+              <h4 id="contact_form_instructions">Please fill out the following form, and I will be in touch with you soon.</h4>
+               <form action="mailto:mrg9p4@mail.missouri.edu?Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+                  
+                  <div>
+                       <label class="form_labels" for="firstname">First Name:</label>
+                            <input type="text" name="firstname" id="firstname" required autofocus placeholder="Type your first name here">
+                   </div>
+                   
+                    <div> 
+                    <label class="form_labels" for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" required placeholder="Type your last name here">
+                    </div>
                     
-                    <input type="text" id="lname" name="lastname" placeholder="Last Name...">
+                    <div>
+                    <label class="form_labels" for="email">Email:</label>
+                        <input type="email" name="email" id="email" required placeholder="Enter a valid email address">
+                    </div>
                     
-                    <input type="text" placeholder="Email" name="email" required>
+                    <div>
+                    <label class="form_labels" for="message">Message:</label>
+                        <textarea name="message" id="message" required placeholder="Type your message here" style="height:150px"></textarea>
+                    </div>
                     
-                    <textarea id="subject" name="subject" placeholder="Type your message here..." style="height:200px"></textarea>
-
                     <input type="submit" value="Submit">
                     </form> 
                     

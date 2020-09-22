@@ -88,7 +88,7 @@ h2 {
 
 #main_home {
     width: 70%;
-    padding-top: 1em;
+    padding-top: .5em;
     margin: 0 auto;
     float: right;
 }
@@ -97,15 +97,15 @@ h2 {
     float: left;
     min-height: 200px;
     max-width: 100%;
-    margin-top: 3em;
+    margin-top: 2em;
     margin-right: 2em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     margin-left: 2em;
     border-radius: 5px;
 }
 
 #welcome {
-    margin-top: 1em;
+    margin-top: .5em;
     margin-right: 1em;
     margin-bottom: 0;
     margin-left: 1em;
@@ -114,14 +114,50 @@ h2 {
 
 #vision {
     clear: both;
-    padding-top: 1.5em;
+    padding-top: 1em;
     margin: 0 1em;
 }
 
-#positions_summary {
-    clear: both;
-    padding-top: 1em;
-    margin: 0 1em;
+caption {
+    text-align: left;
+}
+
+table {
+    width: 90%;
+    padding: 10px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 3%;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    border: 2pt solid #3A5B6E;
+    padding: 5px;
+}
+thead {
+    text-align: left;
+    color: #e5e0da;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #3A5B6E;
+}
+
+tbody {
+    text-align: left;
+    padding: 10px;
+    font-size: 85%;
+}
+
+tbody tr:nth-child(even){
+    background-color: #B0CCCF;
+}
+            
+tbody tr:nth-child(odd){
+    background-color: #e5e0da;
 }
 
 .home_paragraph {
@@ -206,8 +242,8 @@ blockquote {
     color: #534E52;
 } 
 
-@media only screen and (max-width: 640px) {
-    #container {
+@media only screen and (max-width:900px){
+#container {
         clear: both;
         display: block;
         width: 100%;
@@ -237,10 +273,41 @@ blockquote {
         padding-top: 2%;
         padding-right: 2%;
 }
+    
+     table {
+        width: 75%;
+        padding: 10px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        border-collapse: collapse;
+        font-size: 16px;
+}
+
+    th, tr, td {
+        border: 2pt solid #3A5B6E;
+        padding: 5px;
+}
+    thead {
+        text-align: left;
+        color: #e5e0da;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background-color: #3A5B6E;
+}
+
+    tbody {
+        text-align: left;
+        padding: 5px;
+        font-size: 85%;
+}
   
     #aside_home {
        width: 95%;
-    }
+}
       
     blockquote {
         width: 50%;
@@ -250,7 +317,82 @@ blockquote {
         width: auto;
         margin: 0 auto;
     }
-} /*end media query*/
+} /*end media query 1181px*/
+
+@media only screen and (max-width: 640px) {
+    #container {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0 10%;
+        margin: 0 auto;
+}
+    
+    #profile_picture {
+        float: left;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    #main_home {
+        width: 95%;
+        margin: 0 auto;
+    }
+        
+    .home_paragraph {
+        padding-right: 1%; 
+}  
+    
+    #welcome {
+        padding-top: 2%;
+        padding-right: 2%;
+}
+    
+ table {
+        width: 100%;
+        padding: 5px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        border-collapse: collapse;
+        font-size: 14px;
+}
+
+    th, tr, td {
+        border: 2pt solid #3A5B6E;
+        padding: 5px;
+}
+    thead {
+        text-align: left;
+        color: #e5e0da;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background-color: #3A5B6E;
+}
+
+    tbody {
+        text-align: left;
+        padding: 5px;
+        font-size: 85%;
+}
+  
+    #aside_home {
+       width: 95%;
+}
+      
+    blockquote {
+        width: 50%;
+        padding-right: 20%;
+}
+    footer {
+        width: auto;
+        margin: 0 auto;
+    }
+} /*end media query 640px*/
 
 
 /**************************************** Resume Page Style ***************************************/
@@ -779,7 +921,7 @@ border: 0;
 .contact_visual {
     float: left;
     width: 45%;
-    padding-top: 2em;
+    padding-top:4.05em;
     padding-right: .25em;
     padding-bottom: 1.5em;
     padding-left: .75em;
@@ -808,20 +950,27 @@ border: 0;
     margin-left: auto;   
 }
 
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #898382;
-    border-radius: 4px;
-    box-sizing: border-box;
+#contact_form_instructions {
+    color: #3A5B6E;
+    padding-bottom: 3%;
 }
 
- #subject {
+.form_labels {
+    width: auto;
+    float:left;
+    display: inline-block;
+    padding: 3px 0;
+    margin: 0 auto;
+    font-family: 'Raleway', "arial", sans-serif;
+    font-size: 1em;
+    color: #3A5B6E;
+    line-height: 1.5em;
+}
+
+#firstname, #lastname, #email, #message {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 20px;
+    margin: 1px auto;
     display: inline-block;
     border: 1px solid #898382;
     border-radius: 4px;
@@ -867,18 +1016,17 @@ input[type=submit]:hover {
         width: 95%;
         margin: 0 auto;
 }
+    
+    #contact_form_instructions {
+        line-height: 1.5em;
+}
 
     .container_contact_form {
         clear: both;
         width: 95%;
         margin: 0 auto;
 }
-
-    input[type=text], select {
-        padding-top: 2%;
-        padding-right: 2%;
-}
-    
+  
     input[type=submit] {
         padding-top: 2%;
         padding-right: 2%;
