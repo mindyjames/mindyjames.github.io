@@ -79,6 +79,10 @@ h2 {
     color: #3A5B6E;
 }
 
+#breadcrumbs {
+    font-size: 75%;
+}
+
 /***************************************** Home Page Style ****************************************/
 #container_home {
     max-width: 90%;
@@ -181,9 +185,9 @@ tbody tr:nth-child(odd){
     background-color: #e5e0da;
     width: 20%;
     padding-top: 1%;
-    padding-right: 3%;
+    padding-right: 2%;
     padding-bottom: 3%;
-    padding-left: 4%;
+    padding-left: 3%;
     margin-top: 3%;
     vertical-align: middle;
     float: left;
@@ -194,34 +198,30 @@ tbody tr:nth-child(odd){
 
 #education {
     padding-top: 2em;
-    padding-right: 1.75em;
+    padding-right: 1.65em;
     font-size: 150%;
 }
 
 #certification {
     padding-top: 1em;
-    padding-right: 1.75em;
+    padding-right: 1.65em;
     font-size: 150%;
 }
 
 #skills_summary {
     padding-top: 1em;
-    padding-right: 1.75em;
+    padding-right: 1.65em;
     font-size: 150%;
 }
 
 .aside_list {
     list-style: none;
     font-size: 100%;
-    padding-right: 1.75em;
+    padding-right: 1.60em;
     padding-bottom: 1.5em;
     line-height: 1.25em;
     color: #2c3840;
 }
-
-.current {
-    color: #AB0D1D;
-}/*deep red for current education and job on home page*/
 
 #skills_list {
     list-style: circle;
@@ -251,6 +251,10 @@ blockquote {
         margin: 0 auto;
         font-size: 75%;
         line-height: .75em;
+}
+    
+    #breadcrumbs {
+        display: none;
 }
     
     #profile_picture {
@@ -316,7 +320,11 @@ blockquote {
     footer {
         width: auto;
         margin: 0 auto;
-    }
+}
+    
+    #breadcrumb_attribute {
+        display: none;
+}
 } /*end media query 1181px*/
 
 @media only screen and (max-width: 640px) {
@@ -326,6 +334,10 @@ blockquote {
         width: 100%;
         padding: 0 10%;
         margin: 0 auto;
+}
+    
+    #breadcrumbs {
+        display: none;
 }
     
     #profile_picture {
@@ -391,6 +403,10 @@ blockquote {
     footer {
         width: auto;
         margin: 0 auto;
+    }
+    
+    #breadcrumb_attribute {
+        display: none;
     }
 } /*end media query 640px*/
 
@@ -537,7 +553,7 @@ border: 0;
     padding-right: 2%;
     padding-bottom: 3%;
     padding-left: 2%;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-right: auto;
     margin-bottom: 4%;
     margin-left: 1%;
@@ -769,17 +785,22 @@ border: 0;
     filter: sepia(60%);
 }
 
+#experience_expectations_box {
+    width: auto;
+    margin: 0 auto;
+}
+
 #container_experience {
     float: right;
     width: 65%;
-    padding-top: 3%;
+    padding-top: 0;
     padding-right: 1%;
     padding-left: 0;
     
 }
 
 #experience_heading {
-    padding-top: 1.5%;
+    padding-top: 0;
     padding-right: 2%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -796,17 +817,18 @@ border: 0;
 }
 
 #container_expectations {
-    clear: both;
-    padding-top: 0;
-    margin: 0 auto;
+    float: right;
+    width: 65%;
+    padding-top: 2.5%;
+    padding-right: 1%;
+    padding-left: 0;
 }
 
 #expectations_heading {
-    clear: both;
-    padding-top: 1.5%;
+    padding-top: .5%;
     padding-right: 2%;
-    padding-bottom: .5%;
-    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-left: 1%;
     margin: 0 auto;
 }
 
@@ -814,9 +836,9 @@ border: 0;
     display: block;
     padding-top: 0;
     padding-right: 2%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    margin: 0 auto;
+    padding-bottom: 6%;
+    padding-left: 1%;
+    margin: 0 auto 6% auto;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1050,7 +1072,7 @@ footer {
     padding: 1em;
     margin-top: 1em;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     margin-left: auto;
     background-image: url(../islt_7310/images/mosaic_blue_purple_ribbon_85opacity.png);
     background-size: cover;

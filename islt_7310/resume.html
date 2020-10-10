@@ -9,13 +9,13 @@
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: June 25, 2020
-        Tested/Validated: September 21, 2020
+        Tested/Validated: October 01, 2020
         ***************************************************************************************
         -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Mindy James Program Portfolio</title>
+        <title>Mindy James Program Portfolio Resume</title>
         
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         
@@ -55,14 +55,14 @@
                     <div class="nav_menu">
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li class="active"><a href="resume.html">Resume</a></li>
+                            <li><a>Resume</a></li>
                             <li><a href="background.html">Background</a></li>
                             <li><a href="projects.html">Projects</a>
                 
                             <ul id="mobilehide">
-                                <li><a href="projects.html#project_1">Project 1</a></li>
-                                <li><a href="projects.html#project_2">Project 2</a></li>
-                                <li><a href="projects.html#project_3">Project 3</a></li>
+                                <li><a href="projects.html#project_1">Goal 1</a></li>
+                                <li><a href="projects.html#project_2">Goal 2</a></li>
+                                <li><a href="projects.html#project_3">Goal 3</a></li>
                             </ul>
                             </li>
                         
@@ -72,13 +72,35 @@
                     </div>
             </div>
     
+<div id="breadcrumbs">              
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+</div>  
+       
         <div id="container_resume">
            <div class="resume_objective">
                 <h3 id="objective_heading">Professional Objective</h3>
                
                 <p id="resume_body">Seeking a professional opportunity to combine my corporate human resource and classroom education experiences to elevate stakeholder engagement, support collaboraon, and creatively achieve goals.</p>
             
-                <h4 id=view_resume><a href="../islt_7310/docs/james_resume.PDF" target="_blank">View Resume</a></h4>
+                <h4 id=view_resume><a href="../islt_7310/docs/james_resume.pdf" target="_blank">View Resume</a></h4>
             </div>
             
             <div class="resume_video">

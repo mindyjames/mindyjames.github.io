@@ -4,18 +4,18 @@
     <head>
        <!--
         ***************************************************************************************
-        Title: Mindy James Program Portfolio
+        Title: Mindy James Program Portfolio Home Page
         Use: Organizes program artifacts to display competencies for degree review
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: June 25, 2020
-        Tested: September 21, 2020
+        Tested: October 01, 2020
         ***************************************************************************************
         -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Mindy James Program Portfolio</title>
+        <title>Mindy James Program Portfolio Home</title>
         
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         
@@ -36,6 +36,12 @@
         <link rel="stylesheet" href=../islt_7310/nav.css>
 
         <link rel="stylesheet" href=../islt_7310/print.css media="print">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     </head>
     
     <body>
@@ -50,15 +56,15 @@
                 <input type="checkbox" id="toggle"/>
                     <div class="nav_menu">
                         <ul>
-                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a>Home</a></li>
                             <li><a href="resume.html">Resume</a></li>
                             <li><a href="background.html">Background</a></li>
                             <li><a href="projects.html">Projects</a>
                 
                             <ul id="mobilehide">
-                                <li><a href="projects.html#project_1">Project 1</a></li>
-                                <li><a href="projects.html#project_2">Project 2</a></li>
-                                <li><a href="projects.html#project_3">Project 3</a></li>
+                                <li><a href="projects.html#project_1">Goal 1</a></li>
+                                <li><a href="projects.html#project_2">Goal 2</a></li>
+                                <li><a href="projects.html#project_3">Goal 3</a></li>
                             </ul>
                             </li>
                         
@@ -67,28 +73,79 @@
                         </ul>
                     </div>
             </div>
-                          
+            
+<div id="breadcrumbs">              
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+</div>                  
+           
         <div id="container_home">
             <main id="main_home">
                 <img id="profile_picture" src="../islt_7310/images/james_profile_pic.jpg" alt="Mindy James Photo" width="200" height="217">
             
-                <h3 id="welcome">Welcome</h3>
+                   <h3 id="welcome">Welcome</h3>
                     <p class="home_paragraph" id="welcome_paragraph">In my youth, I would always try to snag the biggest serving of treats before my sister could beat me to it. With age, I have realized that it is not about getting the biggest piece, but it is about sharing the best part with others. In this site, I have compiled the best slice of my learning technology and design work to share with you.</p>
                 
                 <h3 id="vision">Vision</h3>
                     <p class="home_paragraph">My early career experience was in customer service; I often received perfect survey scores for my customer service skills which really comes down to listening to others. This translates well to leadership roles, human resources, training and development, and K-12 education, all areas in which I have had success. I believe these same skills contribute to making me a good learning designer; I never forget to listen to people in the process. I currently apply learning technology and design in my position as a middle school teacher, but I have a vision to combine my corporate and K-12 education experience into job skills training and support for atypical learners and under-resourced populations.</p>
                 
-                <h3 id="positions_summary">Positions Summary</h3>
+                
                     <p class="home_paragraph">I am entering my seventh year of teaching English Language Arts through special education services to students in sixth through eighth grades. Prior to teaching in a K-12 setting, I worked for Whole Foods Market in several leadership and administrative roles over the course of fourteen years.</p>
                     
-                    <ul id="positions_list">
-                        <li class="current">English Language Arts and Special Education Classroom Teacher, August 2014 – present</li>
-                        <li>Paraprofessional, August 2013 – May 2014</li>
-                        <li>Instructional Support Staff, Title 1 Grant Program, January 2013 – May 2013</li>
-                        <li>Human Resource Administrator/Payroll and Benefits Specialist, April 2008 – January 2013</li>
-                        <li>In-Store Educator, July 2007 – April 2008, August 2001 – August 2002</li>
-                        <li>Associate Customer Service Team Leader, August 2002 – July 2007</li>
-                    </ul>	         
+                    <table>
+                        <caption><h3>Position Summary</h3></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Position</th>
+                                <th scope="col">Begin</th>
+                                <th scope="col">End</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="th-inner">English Language Arts and Special Education Teacher</th>
+                                <td>2014</td>
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="th-inner">Human Resource Administrator/Payroll and Benefits Specialist</th>
+                                <td>2008</td>
+                                <td>2013</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="th-inner">In-Store Educator</th>
+                                <td>2007</td>
+                                <td>2008</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="th-inner">Associate Customer Service Team Leader</th>
+                                <td>2002</td>
+                                <td>2007</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="th-inner">In-Store Educator</th>
+                                <td>2001</td>
+                                <td>2002</td>
+                            </tr>
+                        </tbody>
+                </table>         
                 </main>        
         
                 <aside id="aside_home">   
@@ -130,7 +187,8 @@
                 <blockquote>There are two ways of spreading light&colon; to be the candle or the mirror that reflects it.~Edith Wharton
                 </blockquote>
         </div>
-         
+  <a href='http://www.freevisitorcounters.com'>on Freevisitorcounters.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=74993ffda2b5664ac074b0ff61436ff741317f05'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/751178/t/2"></script>       
         <footer>
             <p id="footer_copyright">&copy; Copyright 2020 by Mindy James
             <img id="email_icon" src="../islt_7310/images/email.png" alt="envelope graphic element"><a href="mailto:mrg9p4@mail.missouri.edu">mrg9p4@mail.missouri.edu</a>
@@ -138,7 +196,11 @@
             </p>
             
             <p id="footer_attribute">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-            </p>        
+            </p>
+            <p id="breadcrumb_attribute" align="center">Breadcrumb free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a></p>
+            
+ <a href='http://www.freevisitorcounters.com'>on Freevisitorcounters.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=74993ffda2b5664ac074b0ff61436ff741317f05'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/751178/t/2"></script>
         </footer> 
     </body>
 </html>

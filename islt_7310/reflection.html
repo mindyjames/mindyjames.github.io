@@ -9,13 +9,13 @@
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: July 11, 2020
-        Tested: September 21, 2020
+        Tested: October 01, 2020
         ***************************************************************************************
         -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Mindy James Program Portfolio</title>
+        <title>Mindy James Program Portfolio Reflection</title>
         
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         
@@ -32,6 +32,12 @@
         <link rel="stylesheet" href=../islt_7310/style.css>
         
         <link rel="stylesheet" href=../islt_7310/nav.css>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
         
     </head>
     
@@ -53,18 +59,39 @@
                             <li><a href="projects.html">Projects</a>
                 
                             <ul id="mobilehide">
-                                <li><a href="projects.html#project_1">Project 1</a></li>
-                                <li><a href="projects.html#project_2">Project 2</a></li>
-                                <li><a href="projects.html#project_3">Project 3</a></li>
+                                <li><a href="projects.html#project_1">Goal 1</a></li>
+                                <li><a href="projects.html#project_2">Goal 2</a></li>
+                                <li><a href="projects.html#project_3">Goal 3</a></li>
                             </ul>
                             </li>
                         
-                            <li class="active"><a href="reflection.html">Reflection</a></li>
+                            <li><a>Reflection</a></li>
                             <li><a href="contact.html">Contact</a></li>   
                         </ul>
                     </div>
             </div>
-                  
+  
+<div id="breadcrumbs">              
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+</div>                
       
         <main>
         <div id="container_reflection">
@@ -73,7 +100,8 @@
             <div id="container_reflection_image">
                <img id="reflection_image" src="../islt_7310/images/mirror_mirror.jpg" alt="person leaning over a mirror" width="320">
             </div>
-                  
+                 
+            <section id="experience_expectations_box">    
             <div id="container_experience">
                    <h4 id="experience_heading">Experience</h4>
                       <p id="experience_paragraph">While I have completed only two classes in the program at the time of creating my portfolio framework, I feel as though I have gained valuable insights into learning design. One aspect of my experience in building my instructional design competencies I value is that even in my production classes there is an emphasis on the goals, objectivs, and the learner for any project completed. Developing any type of learning program is rigorous and requires a great deal of resources, but considering learning technology is far more expensive and can overly tax an organization. Since I want to work with third sector organizations commonly operating on tight budgets, I have appreciated being taught the skills needed to anlyze the need for and proper development and design of learning. I feel strongly about being able to weigh the value of the service I may offer an organization.</p>
@@ -84,6 +112,7 @@
                     <h4 id="expectations_heading">Expectations</h4>
                         <p id="expectations_paragraph">Upon completing the program, I desire to shift to a more corporate job, returning to training and development with a focus on creating training supports that are tiered and provide more scaffolding for atypical learners. I envision partnering with community organizations and vocational training programs to create online learning to aid skill development in under-resourced areas. I feel this will be a great use of my talents and be a real way to apply my socio-technical competencies in a meaningful way.</p>
             </div>
+            </section> 
             </div>
             </main> 
           

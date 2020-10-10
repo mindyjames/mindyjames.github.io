@@ -4,18 +4,18 @@
     <head>
        <!--
         ***************************************************************************************
-        Title: Mindy James Program Portfolio
+        Title: Mindy James Program Portfolio Background Page
         Use: Organizes program artifacts to display competencies for degree review
         Author: Mindy James
         School/Term: University of Missori-Columbia, Summer 2020
         Developed: June 25, 2020
-        Tested: September 21, 2020
+        Tested: October 01, 2020
         ***************************************************************************************
         -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <title>Mindy James Program Portfolio</title>
+        <title>Mindy James Program Portfolio Background</title>
         
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         
@@ -33,6 +33,12 @@
         
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
         
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        
     </head>
     
     <body>
@@ -49,13 +55,13 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="resume.html">Resume</a></li>
-                            <li class="active"><a href="background.html">Background</a></li>
+                            <li><a>Background</a></li>
                             <li><a href="projects.html">Projects</a>
                 
                             <ul id="mobilehide">
-                                <li><a href="projects.html#project_1">Project 1</a></li>
-                                <li><a href="projects.html#project_2">Project 2</a></li>
-                                <li><a href="projects.html#project_3">Project 3</a></li>
+                                <li><a href="projects.html#project_1">Goal 1</a></li>
+                                <li><a href="projects.html#project_2">Goal 2</a></li>
+                                <li><a href="projects.html#project_3">Goal 3</a></li>
                             </ul>
                             </li>
                         
@@ -64,6 +70,28 @@
                         </ul>
                     </div>
             </div>
+            
+<div id="breadcrumbs">              
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+</div>
             
         <div id="container_background">
            <div id="container_background_main">
